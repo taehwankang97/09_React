@@ -16,7 +16,7 @@ const StateEx1 = ()=>{
 
   /* 상태 변수 (State) 이용  */
   const [test, setTest] = useState('A');
-
+ //       <- 리 랜더링
   //useState('A') 의 반환값
   // === ['A', 0번 인덱스의 값을 바꿀 수 있는 함수 (setter)] 
 

@@ -18,6 +18,18 @@ import State1 from './commponents/R06_State1'
 import State2 from './commponents/R07_State2'
 
 import State3 from './commponents/R08_State3'
+
+import StateReview1 from './review/State_Review';
+
+import StateReview2 from './review/State_Review2';
+
+import Context1 from './commponents/R09_Context1';
+
+import Context2 from './commponents/R10_Context2';
+
+import Context3 from './R11_Context3/Parent';
+
+
 function App() {
   return (
    <>
@@ -29,11 +41,11 @@ function App() {
   <FuntionComponent/> */}
 
   {/* Props */}
-  <Props1 num='1' name ='홍길동'/>
+{/*   <Props1 num='1' name ='홍길동'/>
   <Props1 num='2' name ='김미영' />
-  <Props1/>  {/* undifind는 출력이 안됨 */}
+  <Props1/>  */} {/* undifind는 출력이 안됨 */}
 
- <hr/>
+{/*  <hr/>
 
 <Props2 name = '강감찬'
         age = '72'
@@ -60,6 +72,19 @@ function App() {
 <hr/>
 
 <State3/>
+
+
+<StateReview1/>
+
+<hr/>
+
+<StateReview2/>
+
+<Context1/> */}
+
+{/* <Context2/> */}
+
+<Context3/>
 
    </>
   );
